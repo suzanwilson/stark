@@ -1,0 +1,73 @@
+/* Center the entire container */
+.calculator-container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 30px;
+  text-align: center;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the heading */
+h2 {
+  font-family: 'Arial', sans-serif;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Style the input groups */
+.input-group {
+  margin-bottom: 15px;
+}
+
+.input-group label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+  color: #444;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  box-sizing: border-box;
+}
+
+.input-group input:focus {
+  border-color: #007bff;
+}
+
+/* Style the calculate button */
+.calculate-button {
+  background-color: #007bff;
+  color: white;
+  padding: 12px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.calculate-button:hover {
+  background-color: #0056b3;
+}
+
+/* Style the result section */
+.result {
+  margin-top: 30px;
+  padding: 15px;
+  background-color: #e9f7ef;
+  border: 1px solid #28a745;
+  border-radius: 5px;
+}
+
+.result h3 {
+  color: #28a745;
+  font-size: 20px;
+}
